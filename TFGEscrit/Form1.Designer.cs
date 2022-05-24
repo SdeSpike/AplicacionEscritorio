@@ -31,7 +31,10 @@ namespace TFGEscrit
         {
             this.grdProductos = new System.Windows.Forms.DataGridView();
             this.cmbCategorias = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.grdCesta = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.grdProductos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdCesta)).BeginInit();
             this.SuspendLayout();
             // 
             // grdProductos
@@ -40,7 +43,7 @@ namespace TFGEscrit
             this.grdProductos.Location = new System.Drawing.Point(51, 86);
             this.grdProductos.Name = "grdProductos";
             this.grdProductos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdProductos.Size = new System.Drawing.Size(543, 336);
+            this.grdProductos.Size = new System.Drawing.Size(543, 232);
             this.grdProductos.TabIndex = 0;
             // 
             // cmbCategorias
@@ -50,18 +53,41 @@ namespace TFGEscrit
             this.cmbCategorias.Name = "cmbCategorias";
             this.cmbCategorias.Size = new System.Drawing.Size(121, 21);
             this.cmbCategorias.TabIndex = 1;
+            this.cmbCategorias.SelectionChangeCommitted += new System.EventHandler(this.cmbCategorias_SelectionChangeCommitted);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(51, 342);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Agregar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // grdCesta
+            // 
+            this.grdCesta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdCesta.Location = new System.Drawing.Point(682, 86);
+            this.grdCesta.Name = "grdCesta";
+            this.grdCesta.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.grdCesta.Size = new System.Drawing.Size(743, 232);
+            this.grdCesta.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1452, 692);
+            this.Controls.Add(this.grdCesta);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.cmbCategorias);
             this.Controls.Add(this.grdProductos);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grdProductos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdCesta)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -70,6 +96,8 @@ namespace TFGEscrit
 
         private System.Windows.Forms.DataGridView grdProductos;
         private System.Windows.Forms.ComboBox cmbCategorias;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView grdCesta;
     }
 }
 
