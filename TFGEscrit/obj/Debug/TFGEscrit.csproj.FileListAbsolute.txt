@@ -29,3 +29,4 @@ C:\Users\lucianpotcoava\Documents\GitHub\TFGEscritorio\AplicacionEscritorio\TFGE
 C:\Users\lucianpotcoava\Documents\GitHub\TFGEscritorio\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.exe
 C:\Users\lucianpotcoava\Documents\GitHub\TFGEscritorio\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.pdb
 C:\Users\lucianpotcoava\Documents\GitHub\TFGEscritorio\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.Pedidos.resources
+C:\Users\lucianpotcoava\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.Pedidos.resources
