@@ -33,6 +33,7 @@ namespace TFGEscrit
             this.cmbCategorias = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.grdCesta = new System.Windows.Forms.DataGridView();
+            this.btnHacerPedido = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.grdProductos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdCesta)).BeginInit();
             this.SuspendLayout();
@@ -74,11 +75,22 @@ namespace TFGEscrit
             this.grdCesta.Size = new System.Drawing.Size(743, 232);
             this.grdCesta.TabIndex = 3;
             // 
+            // btnHacerPedido
+            // 
+            this.btnHacerPedido.Location = new System.Drawing.Point(1300, 333);
+            this.btnHacerPedido.Name = "btnHacerPedido";
+            this.btnHacerPedido.Size = new System.Drawing.Size(125, 23);
+            this.btnHacerPedido.TabIndex = 4;
+            this.btnHacerPedido.Text = "Hacer pedido";
+            this.btnHacerPedido.UseVisualStyleBackColor = true;
+            this.btnHacerPedido.Click += new System.EventHandler(this.btnHacerPedido_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1452, 692);
+            this.Controls.Add(this.btnHacerPedido);
             this.Controls.Add(this.grdCesta);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cmbCategorias);
@@ -98,6 +110,7 @@ namespace TFGEscrit
         private System.Windows.Forms.ComboBox cmbCategorias;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView grdCesta;
+        private System.Windows.Forms.Button btnHacerPedido;
     }
 }
 

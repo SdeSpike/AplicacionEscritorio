@@ -78,14 +78,14 @@ namespace TFGEscrit
         private void button1_Click(object sender, EventArgs e)
         {
             //MessageBox.Show(grdProductos.Rows[grdProductos.SelectedRows[0].Index].Cells[2].Value.ToString());
-            int cantidad=Int32.Parse(Interaction.InputBox("Inserte una cantidad"));
-            MessageBox.Show(cantidad.ToString());
+            int cantidad = Int32.Parse(Interaction.InputBox("Inserte una cantidad"));
+
 
             DataRow fila = tablaCesta.NewRow();
             fila["IdArticulo"] = grdProductos.Rows[grdProductos.SelectedRows[0].Index].Cells[0].Value.ToString();
             fila["IdCategoria"] = grdProductos.Rows[grdProductos.SelectedRows[0].Index].Cells[1].Value.ToString();
             fila["Nombre"] = grdProductos.Rows[grdProductos.SelectedRows[0].Index].Cells[2].Value.ToString();
-            fila["Stock"] ="("+(Int32.Parse(grdProductos.Rows[grdProductos.SelectedRows[0].Index].Cells[3].Value.ToString())+cantidad).ToString()+")";
+            fila["Stock"] =Int32.Parse(grdProductos.Rows[grdProductos.SelectedRows[0].Index].Cells[3].Value.ToString()) + cantidad;
             fila["Precio"] = grdProductos.Rows[grdProductos.SelectedRows[0].Index].Cells[4].Value.ToString();
             fila["Cantidad"] = cantidad;
             fila["Total"] = cantidad*float.Parse(grdProductos.Rows[grdProductos.SelectedRows[0].Index].Cells[4].Value.ToString());
@@ -99,6 +99,37 @@ namespace TFGEscrit
             }
             grdCesta.DataSource = tablaCesta;
             
+        }
+
+        private void btnHacerPedido_Click(object sender, EventArgs e)
+        {
+            SqlCommand cmdHacerPedido = new SqlCommand("Produccion.HacerPedido", conexion);
+            cmdHacerPedido.CommandType = CommandType.StoredProcedure;
+
+            SqlParameter p_idMateriaPrima = new SqlParameter();
+            SqlParameter p_cantidad = new SqlParameter();
+            SqlParameter p_salida = new SqlParameter();
+
+            p_idMateriaPrima.ParameterName = "@p_idMateriaPrima";
+            p_idMateriaPrima.SqlDbType = SqlDbType.TinyInt;
+            p_idMateriaPrima.Direction = ParameterDirection.Input;
+
+            p_cantidad.ParameterName = "@p_cantidad";
+            p_cantidad.SqlDbType = SqlDbType.Int;
+            p_cantidad.Direction = ParameterDirection.Input;
+
+            p_salida.ParameterName = "@p_salida";
+            p_salida.SqlDbType = SqlDbType.Int;
+            p_salida.Direction = ParameterDirection.Output;
+
+            cmdCategorias.Parameters.Add(p_idMateriaPrima);
+            cmdCategorias.Parameters.Add(p_cantidad);
+            cmdCategorias.Parameters.Add(p_salida);
+
+            for(int i = 0; i < tablaCesta.Rows.Count; i++)
+            {
+                p_idMateriaPrima.Value = tablaCesta.Rows[i][""];
+            }
         }
     }
 }
