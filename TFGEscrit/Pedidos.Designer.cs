@@ -44,7 +44,7 @@ namespace TFGEscrit
             this.cmbCategorias.FormattingEnabled = true;
             this.cmbCategorias.Location = new System.Drawing.Point(59, 28);
             this.cmbCategorias.Name = "cmbCategorias";
-            this.cmbCategorias.Size = new System.Drawing.Size(401, 21);
+            this.cmbCategorias.Size = new System.Drawing.Size(245, 21);
             this.cmbCategorias.TabIndex = 2;
             this.cmbCategorias.SelectionChangeCommitted += new System.EventHandler(this.cmbCategorias_SelectionChangeCommitted);
             // 
@@ -53,7 +53,7 @@ namespace TFGEscrit
             this.lstProductos.FormattingEnabled = true;
             this.lstProductos.Location = new System.Drawing.Point(59, 87);
             this.lstProductos.Name = "lstProductos";
-            this.lstProductos.Size = new System.Drawing.Size(401, 290);
+            this.lstProductos.Size = new System.Drawing.Size(245, 550);
             this.lstProductos.TabIndex = 3;
             this.lstProductos.DoubleClick += new System.EventHandler(this.lstProductos_DoubleClick);
             // 
@@ -62,11 +62,11 @@ namespace TFGEscrit
             this.grdMateriaPrima.AllowUserToAddRows = false;
             this.grdMateriaPrima.AllowUserToDeleteRows = false;
             this.grdMateriaPrima.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdMateriaPrima.Location = new System.Drawing.Point(581, 87);
+            this.grdMateriaPrima.Location = new System.Drawing.Point(438, 57);
             this.grdMateriaPrima.Name = "grdMateriaPrima";
             this.grdMateriaPrima.ReadOnly = true;
             this.grdMateriaPrima.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdMateriaPrima.Size = new System.Drawing.Size(805, 290);
+            this.grdMateriaPrima.Size = new System.Drawing.Size(655, 199);
             this.grdMateriaPrima.TabIndex = 4;
             // 
             // grdPedidos
@@ -74,16 +74,16 @@ namespace TFGEscrit
             this.grdPedidos.AllowUserToAddRows = false;
             this.grdPedidos.AllowUserToDeleteRows = false;
             this.grdPedidos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdPedidos.Location = new System.Drawing.Point(59, 413);
+            this.grdPedidos.Location = new System.Drawing.Point(438, 399);
             this.grdPedidos.Name = "grdPedidos";
             this.grdPedidos.ReadOnly = true;
             this.grdPedidos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdPedidos.Size = new System.Drawing.Size(817, 215);
+            this.grdPedidos.Size = new System.Drawing.Size(655, 196);
             this.grdPedidos.TabIndex = 5;
             // 
             // btnPedido
             // 
-            this.btnPedido.Location = new System.Drawing.Point(1242, 397);
+            this.btnPedido.Location = new System.Drawing.Point(1138, 144);
             this.btnPedido.Name = "btnPedido";
             this.btnPedido.Size = new System.Drawing.Size(130, 23);
             this.btnPedido.TabIndex = 6;
@@ -93,7 +93,7 @@ namespace TFGEscrit
             // 
             // btnHacerPedido
             // 
-            this.btnHacerPedido.Location = new System.Drawing.Point(897, 605);
+            this.btnHacerPedido.Location = new System.Drawing.Point(1138, 491);
             this.btnHacerPedido.Name = "btnHacerPedido";
             this.btnHacerPedido.Size = new System.Drawing.Size(130, 23);
             this.btnHacerPedido.TabIndex = 7;
@@ -105,13 +105,14 @@ namespace TFGEscrit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1466, 690);
+            this.ClientSize = new System.Drawing.Size(1332, 651);
             this.Controls.Add(this.btnHacerPedido);
             this.Controls.Add(this.btnPedido);
             this.Controls.Add(this.grdPedidos);
             this.Controls.Add(this.grdMateriaPrima);
             this.Controls.Add(this.lstProductos);
             this.Controls.Add(this.cmbCategorias);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Pedidos";
             this.Text = "Pedidos";
             this.Load += new System.EventHandler(this.Pedidos_Load);

@@ -30,3 +30,16 @@ C:\Users\lucianpotcoava\Documents\GitHub\TFGEscritorio\AplicacionEscritorio\TFGE
 C:\Users\lucianpotcoava\Documents\GitHub\TFGEscritorio\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.pdb
 C:\Users\lucianpotcoava\Documents\GitHub\TFGEscritorio\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.Pedidos.resources
 C:\Users\lucianpotcoava\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.Pedidos.resources
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\bin\Debug\TFGEscrit.exe.config
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\bin\Debug\TFGEscrit.exe
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\bin\Debug\TFGEscrit.pdb
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.csproj.AssemblyReference.cache
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.Pedidos.resources
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.Properties.Resources.resources
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.csproj.GenerateResource.cache
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.csproj.CoreCompileInputs.cache
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.exe
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.pdb
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.Menu.resources
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.AceptarPedido.resources
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.MenuF.resources

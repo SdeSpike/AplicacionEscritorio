@@ -14,7 +14,8 @@ namespace TFGEscrit
 {
     public partial class Pedidos : Form
     {
-        static string strConexion = @"Data Source=segundo150\segundo150;Initial Catalog=DAM_LucianPotcoava;Integrated Security=True";
+        //static string strConexion = @"Data Source=segundo150\segundo150;Initial Catalog=DAM_LucianPotcoava;Integrated Security=True";
+        static string strConexion = @"Data Source=DESKTOP-2915P7L;Initial Catalog=TFG;Integrated Security=True";
         static SqlConnection conexion = new SqlConnection(strConexion);
         SqlDataAdapter adaptador;
 
@@ -187,6 +188,8 @@ namespace TFGEscrit
                 cmdHacerPedido.ExecuteNonQuery();
             }
             conexion.Close();
+            taMateriaPedido.Clear();
+            MessageBox.Show("Pedido realizado con exito!");
         }
     }
 }
