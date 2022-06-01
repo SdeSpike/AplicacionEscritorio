@@ -43,3 +43,8 @@ C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debu
 C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.Menu.resources
 C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.AceptarPedido.resources
 C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.MenuF.resources
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.MantenimientoCategoria.resources
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.MantenimientoMateriaPrima.resources
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.LogFabricando.resources
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.MovimientoMateriaPrima.resources
+C:\Users\lucia\OneDrive\Documents\GitHub\AplicacionEscritorio\TFGEscrit\obj\Debug\TFGEscrit.GridMovimientosPrimas.resources
