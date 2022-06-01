@@ -53,6 +53,30 @@
     <Compile Include="AceptarPedido.Designer.cs">
       <DependentUpon>AceptarPedido.cs</DependentUpon>
     </Compile>
+    <Compile Include="GridMovimientosPrimas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridMovimientosPrimas.Designer.cs">
+      <DependentUpon>GridMovimientosPrimas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogFabricando.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogFabricando.Designer.cs">
+      <DependentUpon>LogFabricando.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoCategoria.Designer.cs">
+      <DependentUpon>MantenimientoCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoMateriaPrima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoMateriaPrima.Designer.cs">
+      <DependentUpon>MantenimientoMateriaPrima.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +89,12 @@
     <Compile Include="MenuF.Designer.cs">
       <DependentUpon>MenuF.cs</DependentUpon>
     </Compile>
+    <Compile Include="MovimientoMateriaPrima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovimientoMateriaPrima.Designer.cs">
+      <DependentUpon>MovimientoMateriaPrima.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pedidos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,11 +106,26 @@
     <EmbeddedResource Include="AceptarPedido.resx">
       <DependentUpon>AceptarPedido.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GridMovimientosPrimas.resx">
+      <DependentUpon>GridMovimientosPrimas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogFabricando.resx">
+      <DependentUpon>LogFabricando.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoCategoria.resx">
+      <DependentUpon>MantenimientoCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoMateriaPrima.resx">
+      <DependentUpon>MantenimientoMateriaPrima.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuF.resx">
       <DependentUpon>MenuF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovimientoMateriaPrima.resx">
+      <DependentUpon>MovimientoMateriaPrima.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pedidos.resx">
       <DependentUpon>Pedidos.cs</DependentUpon>
